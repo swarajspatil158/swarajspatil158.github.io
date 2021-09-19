@@ -38,6 +38,7 @@ body {
     color: #a55732;
     font-size: 1.4rem;
     font-weight: 900;
+    padding-bottom: 1vh;
   }
   
   ul{
@@ -47,6 +48,7 @@ body {
   
   li{
     cursor: pointer;
+    padding-bottom: 0.8vh;
   }
   
   a:link,
@@ -142,4 +144,6 @@ section{
   display: flex;
   flex-direction: column;
   height: 50vh;
+  max-width: 750px;
+  margin: auto;
 }
