@@ -53,16 +53,30 @@ body {
   
   a:link,
   a:visited,
-  a:active,
-  a:hover
+  a:active
   {
     
     color: #49a44f;
     font-weight: 100;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing:1px ;
     background-color: transparent;
     text-decoration: none;
+    transition: ease 300ms;
+    
+  }
+  a:hover
+  {
+    
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing:1px ;
+    background-color: transparent;
+    text-decoration: none;
+    
     
   }
 
