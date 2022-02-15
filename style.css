@@ -148,12 +148,22 @@ p {
   white-space: nowrap;
 }
 
-/*
-** The hover interaction
-*/
-.Words:hover p {
-  transform: translate3d(0, -1.5rem, 0);
+@keyframes change{
+  from {
+    transform: translate3d(0,0,0);
+  }
+  to{
+    transform: translate3d(0, -1.5rem,0);
+  }
 }
+.Words p {
+  /* transform: translate3d(0, -1.5rem, 0); */
+  animation-duration: 5s;
+  animation-name: change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 section{
   display: flex;
   flex-direction: column;
